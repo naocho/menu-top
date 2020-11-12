@@ -1,0 +1,71 @@
+.prof{
+  padding: 0.7%;
+  background-color: #808080;
+  border-radius: 30px;
+  color: white;
+  font-size: large;
+  font-family: Osaka-Mono;
+}
+
+
+.login-style{
+  padding: 1.5%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.font-log{
+  border: 1px solid;
+  margin: 1px 40%;
+}
+
+.menu{
+  border: 1px solid;
+  display: flex;
+  justify-content: space-around;
+  padding: 0.3%;
+  background-color: #808080;
+  color: white;
+  border-radius: 30px;
+
+  /* margin: 1px 150px; */
+}
+
+.main{
+  display: flex;
+  justify-content: space-around;
+}
+
+.start-right{
+
+}
+
+.top-font-right{
+  display: flex;
+  justify-content: center;
+  color: black;
+  margin-top: 50px;
+  border: 1px solid;
+  /* margin-left:20px; */
+}
+
+.main-back{
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid;
+  /* padding: 30%; */
+  /* background-color: green; */
+}
+
+.img-file{
+  padding: 10%;
+}
+
+.myprofile{
+  padding: 10%;
+}
+
+.coment-center{
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>プロフィール</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  </head>
+  </head>
+
+  <body>
+    <header>
+      <div class="login-style">
+        <a class="prof"> MY Profile </a>
+        <a class="prof">投稿する</a>
+      </div>
+      <div class="font-log">
+        <div>
+          <a>！！御観覧有り難うございます。！！</a>
+        </div>
+        <div>
+          <a>・ポートフォリオを共有しませんか？</a>
+        </div>
+        <div>
+          <a>・お互いに切磋琢磨縞しましょう！！</a>
+        </div>
+      </div>
+      <%# <div>右側にJQueryでいくつかの挨拶文を流す</div> %>
+    </header>
+    <%= yield %>
+  </body>
+</html>
